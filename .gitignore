@@ -1,0 +1,9 @@
+# Ignorar pastas de compilação
+bin/
+obj/
+
+# Ignorar configurações do usuário
+.vs/
+.vscode/
+*.user
+*.userosscache

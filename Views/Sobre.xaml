@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#FBC02D" Offset="0.1" />
+            <GradientStop Color="#F9A825" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <VerticalStackLayout Spacing="20" Padding="40" VerticalOptions="Center">
+        <Label Text="Golden Palace Hotel" FontSize="32" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="Center" />
+        
+        <BoxView HeightRequest="2" Color="#424242" HorizontalOptions="Fill" />
+
+        <Label Text="Desenvolvido por:" TextColor="#424242" FontSize="16" HorizontalOptions="Center" />
+        <Label Text="Rosana Mello dos Santos" TextColor="#424242" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Label Text="Ano: 2026" TextColor="#424242" HorizontalOptions="Center" />
+        <Label Text="Versão: 1.0" TextColor="#424242" HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
