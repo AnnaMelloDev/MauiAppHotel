@@ -1,6 +1,7 @@
 # Golden Palace Hotel 🏨
 
-Este é um aplicativo desenvolvido em .NET MAUI para a disciplina de Programação Mobile I.
+Este projeto faz parte dos meus estudos no curso técnico de Desenvolvimento de Sistemas na ETEC.
+É um aplicativo mobile desenvolvido para colocar em prática conceitos de interface e navegação.
 
 ## 🚀 Funcionalidades
 - Cadastro de reserva de hospedagem.
